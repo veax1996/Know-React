@@ -5,11 +5,15 @@
         "noImplicitAny": true,
         "module": "commonjs",
         "target": "es6",
-        "jsx": "react",
+        "jsx": "preserve",
         "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
         "types": ["node"]
     },
     "include": [
         "./src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
     ]
 }
