@@ -12,5 +12,5 @@ class App extends React.Component {
     }
 }
 
-export default hot(module)(App);
+export default App;
 
