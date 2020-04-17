@@ -11,5 +11,8 @@ class App extends React.Component {
     }
 }
 
+(window as any).app = <App/>;
+console.log(<App/>);
+
 export default App;
 
